@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="UA">
+<head>
+    <title>Мій сайт</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"></script>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section1">Головна</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section2">Про сайт</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section3">Галерея картинок</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#section4">Контакти</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Background image -->
+    <div class="p-5 text-center bg-image"
+         style="
+      background-image: url('/img/logo.jpg');
+      height: 200px;
+      background-size: cover;
+    ">
+        <div class="mask" style="background-color: rgba(0, 0, 0, 0.6);">
+            <div class="d-flex justify-content-center align-items-center h-100">
+                <div class="text-white">
+                    <h1 class="mb-3">Найвідоміші туристичні місця України</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Background image -->
+</header>
+<section id="section1">
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <img src="img/bukskiy/bukskiy-kanon.jpg.webp" class="card-img-top" alt="Post Image">
+                    <div class="card-body">
+                        <h5 class="card-title"> Буцький каньйон, Буки</h5>
+                        <p class="card-text">На кордонні Вінницької та Черкаської областей на річці Гірський Тікич
+                            розташований один з наймальовничіших скельних каньйонів – Буцький. Його протяжність 5 км,
+                            максимальна глибина 20 метрів, а ширина коливається від 20 до 80 метрів. Тільки уявіть, який
+                            захоплюючий вид відкривається з його вершини. В самому початку каньйону річка з силою
+                            скочується
+                            до низу, утворюючи двометровий водоспад. Біля нього можна помилуватися залишками водного
+                            млина,
+                            який функціонував в 19 столітті.</p>
+                        <p class="card-text">Тисячі років ця гірська річка точила місцеві граніти, вік яких оцінюється
+                            приблизно 2 мільярда років, доки не утворився каньйон. Тутешні ландшафти не типові для
+                            України,
+                            тому це місце нерідко називають «маленькою Швейцарією».</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <div class="swiper mySwiper position-sticky">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide_1"><img src="img/sofievka/akherontskoye-ozero.jpg.webp"
+                                                                   alt="akherontskoye-ozero"></div>
+                            <div class="swiper-slide slide_2"><img src="img/sofievka/dendropark-sofiyevka-1.jpg.webp"
+                                                                   alt="dendropark-sofiyevka"></div>
+                            <div class="swiper-slide slide_3"><img src="img/sofievka/vid-na-ploshchad.jpg.webp"
+                                                                   alt="vid-na-ploshchad"></div>
+                        </div>
+                        <div class="swiper-pagination position-sticky"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Дендропарк «Софієвка», Умань</h5>
+                        <p class="card-text">Якщо говорити про найбільш цікаві місця центральної України, то на думку
+                            відразу спаде чудесний дендрологічний парк, розташований на березі Кам’янки в м. Умань. На
+                            початку 19 століття польський граф Станіслав Потоцький вирішив заснувати ландшафний парк для
+                            дружини Софії Глявоне-Потоцької. Названий він був на її честь.</p>
+                        <p class="card-text">Запам’ятовується «Софієвка» не тільки різноманіттям місцевої та екзотичної
+                            флори,
+                            але ще й більшістю архітектурних будівель, статуй, фонтанів та величезних валунів
+                            чудернацької
+                            форми. Екскурсія&nbsp; в Софієвку стане чудовим проведенням часу для всієї родини!</p>
+                        <p class="card-text">Наполегливо рекомендую приїжджати сюди рано в ранці. Щоб обійти всю
+                            територію,
+                            буде
+                            потрібно мінімум пів дня. В парку можна покататися на конях, прогулятися на кареті,
+                            санчатах,
+                            покататися на човнах, катамаранах або паромі.</p>
+                        <p class="card-text">Багато гостей прибувають до Софіївського парку у складі екскурсійної
+                            групи.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <img src="img/kievskaya/park-kiyevskaya-rus.jpg.webp" class="card-img-top" alt="Post Image">
+                    <div class="card-body">
+                        <h5 class="card-title">Парк Київська Русь</h5>
+                        <p class="card-text">Неподалік від столиці, в с. Копачів, є унікальне місце, яке покаже, як
+                            виглядав
+                            древній Київ під час Русі. Цей музей просто неба має важливу історичну та культурну
+                            цінність.
+                            Він займає 10 га площі – реальні розміри Києва V-XIII століть. Це також грандіозний науковий
+                            проєкт, який знайомить з духом, атмосферою і побутом України часів середньовіччя.</p>
+                        <p class="card-text">Часто тут проводиться розважальні заходи: тематичні фестивалі,
+                            кінно-трюкові
+                            шоу, турніри лучників, чемпіонати з бойових мистецтв, різноманітні шоу-програми,
+                            демонстрація
+                            умундирування середньовічних воїнів.</p>
+                        <p class="card-text">В музеї зібрано понад 20 коней історичних порід, чиї предки зіграли
+                            вирішальну
+                            роль в розвитку конярства у світі. Парк зі своєю великою кількістю архітектурних споруд і
+                            різноманіттям розваг нікого не залишать байдужим.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <div class="swiper mySwiper position-sticky">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide_1"><img src="img/askania/askaniya-nova-2.jpg.webp"
+                                                                   alt="askaniya-nova"></div>
+                            <div class="swiper-slide slide_2"><img src="img/askania/pavliny-gulyayut.jpg.webp"
+                                                                   alt="pavliny-gulyayut"></div>
+                            <div class="swiper-slide slide_3"><img src="img/askania/zebry-v-stepi-2.jpg.webp"
+                                                                   alt="zebry-v-stepi"></div>
+                        </div>
+                        <div class="swiper-pagination position-sticky"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title"> Степовий заповідник Асканія-Нова</h5>
+                        <p class="card-text">В 60 км на південний схід від Каховки можна по світу дикої природи. Якщо ви
+                            направляєтеся в
+                            Херсон. обов’язково приділіть увагу цьому біосферному парку. Загальна територія (33 тис.
+                            гектарів) становити собою дендропарк та відкритий зоопарк. Тут мешкає близько 18 видів
+                            рідкісних
+                            ссавців, земноводних, плазунів і членистоногих. На сьогодні Асканія-Нова є однією з останніх
+                            територій у світі, якій дає притулок стільком рідкісним видам тварин, занесених до Червоної
+                            книги.</p>
+                        <p class="card-text">Тут можна побачити буйволів, оленів, диких коней, муфлонів та ослів,
+                            верблюдів,
+                            бізонів, антилоп.
+                            В орнітологічному парку мешкають 60 видів птахів, серед яких лебеді, качки, фламінго,
+                            павичі,
+                            журавлі, степові орли, грифи, папуги. В степу живуть гризуни, ласки, вовки, лиси, тхори та
+                            горностаї.</p>
+                        <p class="card-text">Популярністю користуються екскурсія з виїздом до степу.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <div class="swiper mySwiper position-sticky">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide slide_1"><img src="img/vody/lesnyye-massivy.jpg.webp"
+                                                                   alt="lesnyye-massivy"></div>
+                            <div class="swiper-slide slide_2"><img src="img/vody/mineralizatsiya-vody.jpg.webp"
+                                                                   alt="mineralizatsiya-vody"></div>
+                            <div class="swiper-slide slide_3"><img src="img/vody/shatskiye-ozora.jpg.webp"
+                                                                   alt="shatskiye-ozora"></div>
+                        </div>
+                        <div class="swiper-pagination position-sticky"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Шацькі озера</h5>
+                        <p class="card-text">На північному заході України, на кордоні з Польщею та Білорусією, є
+                            заповідний
+                            район з комплексом
+                            із більше ніж 30 озер, відомий на всю країну як «Шацькі озера». Тут же знаходяться найбільше
+                            озеро України «Світязь». Його максимальна глибина 58 метрів, що більше, ніж в Азовського
+                            моря. В
+                            найширшому місці протилежного берега майже не видно.</p>
+                        <p class="card-text">Вода тут чиста та прозора, але переважно прохолодна навіть влітку (в
+                            сонячну
+                            погоду досягає
+                            максимум +22 градуси). Довкола розташовано багато готелів, приватних будинків і баз
+                            відпочинку
+                            на різний бюджет.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <img src="img/zamok/staryy-zamok.jpg.webp" class="card-img-top" alt="Post Image">
+                    <div class="card-body">
+                        <h5 class="card-title"> Старий замок Кам'янця-Подільського</h5>
+                        <p class="card-text">Фортеця в Кам’янець-Подільському існувала в Х-XIII столітті. Це потужна
+                            оборонна споруда спочатку була дерев’яною і лише частково з каміння. У XVI ст. дерев’яні
+                            укріплення фортеці були замінені повністю на кам’яні. На початку XIX століття будівля
+                            використовувалася як в’язниця.</p>
+                        <p class="card-text">Зараз це дивовижний пам’ятник старовини. Тут організований
+                            музей-заповідник.
+                            Дорога до Старого замку йде через вузький міст над перешийком мальовничого каньйону.</p>
+                        <p class="card-text">У бастіоні розташовано багато історичних експозицій, в тому числі зброї
+                            середньовіччя. Досить часто тут проводяться фестивалі та історичні реконструкції.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section2">
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Про Сайт</h5>
+                        <p class="card-text">
+                        <p>Назва сайту: Найвідоміші туристичні місця України</p>
+                        <p>Опис сайту: Цей веб-сайт був створений як частина мого РГР (розрахунково-графічної роботи)
+                            університетського курсу. Його ціль - продемонструвати мої знання та навички в галузі
+                            розробки веб-сайтів. Сайт розроблений з урахуванням теми мого РГР.</p>
+                        <p>Використані технології: У розробці цього сайту я використав такі технології та
+                            інструменти:</p>
+                        <ul>
+                            <li>WebStorm</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>Bootstrap 5</li>
+                            <li>Swiper</li>
+                            <li>AJAX</li>
+                        </ul>
+                        <p>Висновок: Цей веб-сайт є результатом моєї праці над РГР і відображає мої знання та навички у
+                            галузі розробки веб-сайтів. Він виконаний у відповідності до теми мого РГР і містить
+                            відповідну функціональність, яка дозволяє продемонструвати основні аспекти мого
+                            проекту.</p></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section3">
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Галерея картинок</h5>
+
+                        <div class="row" id="image-gallery">
+                            <!-- Місце для вставки зображень -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="section4">
+    <div class="container p-3">
+        <div class="row">
+            <div class="col-lg-10 offset-lg-1">
+                <div class="card">
+                    <div class="card-body">
+                        <h2>Контактна інформація</h2>
+                        <ul>
+                            <li><strong>ПІБ:</strong> Сухомлин Віталій Олександрович</li>
+                            <li><strong>Група:</strong> 101-ТК</li>
+                            <li><strong>Email:</strong> vso181204@gmail.com</li>
+                            <li><strong>Телефон:</strong> +380687989041</li>
+                            <li><strong>Університет:</strong>Національний університет «Полтавська політехніка імені Юрія Кондратюка»</li>
+                        </ul>
+                        <div id="map"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        Автор:Сухомлин Віталій 101-ТК
+    </div>
+</footer>
+<script>
+    function initMap() {
+        // Створіть об'єкт карти та встановіть початкові координати та рівень масштабування
+        var map = new google.maps.Map(document.getElementById('map'), {
+            center: {lat: 49.576139, lng: 34.567139}, // Координати центру карти (наприклад, Лондон)
+            zoom: 15 // Рівень масштабування (1 - найменший, 20 - найбільший)
+        });
+    }
+</script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDfTI0TQldchPWwygUXFodhtzKoBsonFaU&callback=initMap" async defer></script>
+<script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.11.6/umd/popper.min.js"></script>
+<script type="module" src="script.js">
+</script>
+</body>
+</html>
