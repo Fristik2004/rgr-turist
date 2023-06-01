@@ -6,26 +6,20 @@ $(document).ready(function() {
             spaceBetween: 50,
         },
     });
+
     $("#section1").addClass("active");
-
-    // Обработка кликов по ссылкам навигации
     $("nav a").click(function(e) {
-        e.preventDefault(); // Отменить стандартное действие ссылки
-
-        var target = $(this).attr("href"); // Получить значение атрибута href
-
-        // Скрыть все разделы и показать только целевой раздел
+        e.preventDefault();
+        var target = $(this).attr("href");
         $("section").removeClass("active");
         $(target).addClass("active");
     });
-    var serverURL = '/img';
 
-    // Функція для завантаження зображень з сервера
+    var serverURL = '/img';
     function loadImages() {
         $.ajax({
             url: serverURL,
             success: function(data) {
-                // Додавання зображень до галереї
                 var gallery = $('#image-gallery');
                 $.each(data, function(index, image) {
                     var imageURL = '/public/' + image;
@@ -38,7 +32,5 @@ $(document).ready(function() {
             }
         });
     }
-
-    // Завантаження зображень при завантаженні сторінки
     loadImages();
 });
